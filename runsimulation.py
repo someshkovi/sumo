@@ -76,7 +76,7 @@ def createTLSXML(file, simulation_values, trafficLight_Input):
 
 
 def runSingleSimulation(file = 'osm.sumocfg'):
-    sumoBinary = checkBinary('sumo')
+    sumoBinary = checkBinary('/sumo/sumo-git/sumo/bin/sumo')
     traci.start([sumoBinary, "-c", file, '--no-warnings'])
 
     while traci.simulation.getMinExpectedNumber() > 0:
@@ -84,12 +84,6 @@ def runSingleSimulation(file = 'osm.sumocfg'):
     traci.close()
 
 def get_output_summary(pcr_signal, iqbalminar_signal, oldpssaifabad_signal):
-    if 'SUMO_HOME' in os.environ:
-        tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
-        sys.path.append(tools)
-    else:
-        sys.exit("please declare environment variable 'SUMO_HOME'")
-
     amber_signal = 5
     data = [['run','static',pcr_signal,'GGGGGGGGGGGGrrrrrrrrrrr','10','100', 'pcr'],
             ['run','static',amber_signal,'GGGGGYYYYYYGrrrrrrrrrrr','10','100', 'amber0'],

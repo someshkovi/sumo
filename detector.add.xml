@@ -42,7 +42,7 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <e3Detector id="oldpssaifabad_detector" pos="2267.29,2893.86" freq="900.00" file="data\oldpssaifabad_detector.xml">
+    <e3Detector id="oldpssaifabad_detector" pos="2267.29,2893.86" freq="900.00" file="data/oldpssaifabad_detector.xml">
         <detEntry lane="oldpssaifabad_entry_0" pos="155"/>
         <detEntry lane="oldpssaifabad_entry_1" pos="155"/>
         <detEntry lane="oldpssaifabad_entry_2" pos="155"/>
@@ -54,7 +54,7 @@
         <detExit lane="207693436#7_3" pos="10"/>
         <detExit lane="207693436#7_4" pos="10"/>
     </e3Detector>
-    <e3Detector id="iqbalminar_detector" pos="2408.37,2899.26" freq="900.00" file="data\iqbalminar_detector.xml">
+    <e3Detector id="iqbalminar_detector" pos="2408.37,2899.26" freq="900.00" file="data/iqbalminar_detector.xml">
         <detEntry lane="iqbalminar_entry_0" pos="98"/>
         <detEntry lane="iqbalminar_entry_1" pos="98"/>
         <detEntry lane="iqbalminar_entry_2" pos="98"/>
@@ -64,7 +64,7 @@
         <detExit lane="iqbalminar_entry_2" pos="198"/>
         <detExit lane="iqbalminar_entry_3" pos="198"/>
     </e3Detector>
-    <e3Detector id="pcr_detector" pos="2380.71,2802.88" freq="900.00" file="data\pcr_detector.xml">
+    <e3Detector id="pcr_detector" pos="2380.71,2802.88" freq="900.00" file="data/pcr_detector.xml">
         <detEntry lane="pcr_entry_0" pos="166"/>
         <detEntry lane="pcr_entry_1" pos="166"/>
         <detEntry lane="pcr_entry_2" pos="166"/>

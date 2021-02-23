@@ -23,7 +23,7 @@
     </processing>
 
     <output>
-		<summary-output value="data\summary-output.xml"/>
+		<summary-output value="data/summary-output.xml"/>
      </output>
 </configuration>
 
